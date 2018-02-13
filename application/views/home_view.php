@@ -1,234 +1,212 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+    <head>
+	    <meta charset="utf-8">
+	    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+	    <meta content="width=device-width, initial-scale=1" name="viewport">
 
-<head>
+	    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	    <title>Marketer - Responsive HTML5 Template</title>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+	    <!-- web-fonts -->
+	    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,500" rel="stylesheet" type="text/css">
+	    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 
-    <title>Landing Page - Start Bootstrap Theme</title>
+	    <!-- off-canvas -->
+	    <link href="<?php echo base_url() ?>asset/css/mobile-menu.css" rel="stylesheet">
 
-    <!-- Bootstrap Core CSS -->
-    <link href="<?php echo base_url() ?>/asset/css/bootstrap.min.css" rel="stylesheet">
+	    <!-- font-awesome -->
+	    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <link href="<?php echo base_url() ?>/asset/css/landing-page.css" rel="stylesheet">
+	    <!-- Flat Icon -->
+	    <link href="<?php echo base_url() ?>asset/fonts/flaticon/flaticon.css" rel="stylesheet">
 
-    <!-- Custom Fonts -->
-    <link href="<?php echo base_url() ?>/asset/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+	    <!-- Bootstrap -->
+	    <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" rel="stylesheet">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+	    <!-- Style CSS -->
+	    <link href="<?php echo base_url() ?>asset/css/style.css" rel="stylesheet">
+  
+ 	</head>
+    <body>
+        <div id="main-wrapper">
+            <div class="content-wrapper">
+                <nav class="navbar m-menu navbar-default">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <button class="navbar-toggle collapsed" data-target="#navbar-collapse-1" data-toggle="collapse" type="button">
+                                
+                            </button>
+                            <a class="navbar-brand" href="index.html">
+                                ANTON TRAVEL
+                            </a>
+                        </div>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="#navbar-collapse-1">
+                            <ul class="nav navbar-nav navbar-right main-nav">
+                                <li class="active">
+                                    <a href="index.html">
+                                        Home
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="about.html">
+                                        About
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="services.html">
+                                        Services
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="contact.html">
+                                        Contact
+                                    </a>
+                                </li>
+                                <li class="dropdown dropdown-toggle">
+                                    <a data-toggle="dropdown" href="#">
+                                        Dropdown
+                                        <span>
+                                            <i class="fa fa-angle-down">
+                                            </i>
+                                        </span>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a href="#">
+                                                Awesome Features
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                Clean Interface
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                Available Possibilities
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                Responsive Design
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                Pixel Perfect Graphics
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- .navbar-collapse -->
+                    </div>
+                </nav>
+                <!-- end of nav -->
 
-</head>
-
-<body>
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
-        <div class="container topnav">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand topnav" href="#">Start Bootstrap</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="#about">About</a>
-                    </li>
-                    <li>
-                        <a href="#services">Services</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-
-
-    <!-- Header -->
-    <a name="about"></a>
-    <div class="intro-header">
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="intro-message">
-                        <h1>Landing Page</h1>
-                        <h3>A Template by Start Bootstrap</h3>
-                        <hr class="intro-divider">
-                        <ul class="list-inline intro-social-buttons">
-                            <li>
-                                <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
-                            </li>
-                        </ul>
+                <div class="carousel slide hero-slide hidden-xs" data-ride="carousel" id="my-carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li class="active" data-slide-to="0" data-target="#my-carousel">
+                        </li>
+                    </ol>
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img alt="Hero Slide" src="<?php echo base_url() ?>asset/img/hero-slide-1.jpg">
+                                <div class="carousel-caption">
+                                    <h1>
+                                        Strategic Management
+                                    </h1>
+                                    <p>
+                                        Efficiently develop parallel e-markets through impactful outsourcing.<br/>Conveniently drive prospective functionalities before.
+                                    </p>
+                                </div>
+                            </img>
+                        </div>
                     </div>
                 </div>
-            </div>
+                <!-- end of carousel -->
 
-        </div>
-        <!-- /.container -->
+                <section class="featured-box">
+    				<div class="container">
+        				<div class="row">
+        					<div class="col-md-12">
+            					<div class="featured-content-wrapper">
+            						<div class="featured-img">
+                						<img class="img-responsive" src="<?php echo base_url() ?>asset/img/img-featured-1.png" alt="">
+            						</div>
+            						<div class="featured-content">
+                						<h1>We Improve Your Online Performance</h1>
+                						<p>
+                							Dynamically enhance accurate methods of empowerment without interdependent applications. Appropriately e-enable synergistic platforms for visionary manufactured products. Dramatically develop state of the art relationships without enterprise-wide methodologies.
+                						</p>
+                						<a href="" class="btn btn-default btn-lg">Learn More About Us</a>
+            						</div>
+            					</div>
+            				</div>
+        				</div>
+    				</div>
+				</section>
+				<!-- /.featured-box -->
 
-    </div>
-    <!-- /.intro-header -->
+                <section class="case-studies">
+    				<div class="container">
+        				<div class="section-title">
+            				<h1>Our case Studies</h1>
+            				<p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy<br>with my whole heart. I am alone, and feel the charm of existence in this spot.</p>
+        				</div>
+        				<div class="row text-center">
+            				<div class="col-md-4">
+                				<div class="left-icon-wraper">
+                    				<div class="icon">
+                        				<img src="https://jannahtravel.co.id/assets/front/images/umrah.png" style="width: 100px;height: 100px">
+                    				</div>
+                    				<div class="content">
+                    					<h2>SEO Experts</h2>
+                    				</div>
+                				</div>
+            				</div>
+            				<div class="col-md-4">
+                				<div class="left-icon-wraper">
+                					<div class="icon">
+                						<img src="https://jannahtravel.co.id/assets/front/images/umrah.png" style="width: 100px;height: 100px">
+                					</div>
+                					<div class="content">
+                    					<h2>Great Rankings</h2>
+                					</div>
+                				</div>
+            				</div>
+            				<div class="col-md-4">
+                				<div class="left-icon-wraper">
+                					<div class="icon">
+                						<img src="https://jannahtravel.co.id/assets/front/images/umrah.png" style="width: 100px;height: 100px">
+                					</div>
+                					<div class="content">
+                     					<h2>Brand Visibility</h2>
+                					</div>
+                				</div>
+            				</div>
+        				</div><!-- /.row -->
+    				</div><!-- /.container -->
+				</section>
+				<!-- /.client-logo -->
 
-    <!-- Page Content -->
-
-	<a  name="services"></a>
-    <div class="content-section-a">
-
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Death to the Stock Photo:<br>Special Thanks</h2>
-                    <p class="lead">A special thanks to <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a> for providing the photographs that you see in this template. Visit their website to become a member.</p>
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="<?php echo base_url() ?>/asset/img/ipad.png" alt="">
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-a -->
-
-    <div class="content-section-b">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">3D Device Mockups<br>by PSDCovers</h2>
-                    <p class="lead">Turn your 2D designs into high quality, 3D product shots in seconds using free Photoshop actions by <a target="_blank" href="http://www.psdcovers.com/">PSDCovers</a>! Visit their website to download some of their awesome, free photoshop actions!</p>
-                </div>
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="<?php echo base_url() ?>/asset/img/dog.png" alt="">
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-b -->
-
-    <div class="content-section-a">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Google Web Fonts and<br>Font Awesome Icons</h2>
-                    <p class="lead">This template features the 'Lato' font, part of the <a target="_blank" href="http://www.google.com/fonts">Google Web Font library</a>, as well as <a target="_blank" href="http://fontawesome.io">icons from Font Awesome</a>.</p>
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="<?php echo base_url() ?>/asset/img/phones.png" alt="">
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-a -->
-
-	<a  name="contact"></a>
-    <div class="banner">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-6">
-                    <h2>Connect to Start Bootstrap:</h2>
-                </div>
-                <div class="col-lg-6">
-                    <ul class="list-inline banner-social-buttons">
-                        <li>
-                            <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                        </li>
-                        <li>
-                            <a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.banner -->
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="list-inline">
-                        <li>
-                            <a href="#">Home</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#about">About</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#services">Services</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                    <p class="copyright text-muted small">Copyright &copy; Your Company 2014. All Rights Reserved</p>
-                </div>
             </div>
         </div>
-    </footer>
-
-    <!-- jQuery -->
-    <script src="<?php echo base_url() ?>/asset/js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="<?php echo base_url() ?>/asset/js/bootstrap.min.js"></script>
-
-</body>
-
+        <!-- Script -->
+        <script src="<?php echo base_url() ?>asset/js/jquery-2.1.4.min.js">
+        </script>
+        <script crossorigin="anonymous" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
+        </script>
+        <script src="<?php echo base_url() ?>asset/js/smoothscroll.js">
+        </script>
+        <script src="<?php echo base_url() ?>asset/js/mobile-menu.js">
+        </script>
+        <script src="<?php echo base_url() ?>asset/js/scripts.js">
+        </script>
+    </body>
 </html>
