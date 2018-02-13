@@ -38,8 +38,7 @@
                                 
                             </button>
                             <a class="navbar-brand" href="index.html">
-                                ANTON TRAVEL
-                            </a>
+                                MJM TRAVEL
                         </div>
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="collapse navbar-collapse" id="#navbar-collapse-1">
@@ -51,55 +50,15 @@
                                 </li>
                                 <li>
                                     <a href="about.html">
-                                        About
+                                        Paket
                                     </a>
                                 </li>
                                 <li>
                                     <a href="services.html">
-                                        Services
+                                        Mengapa MJM
                                     </a>
                                 </li>
-                                <li>
-                                    <a href="contact.html">
-                                        Contact
-                                    </a>
-                                </li>
-                                <li class="dropdown dropdown-toggle">
-                                    <a data-toggle="dropdown" href="#">
-                                        Dropdown
-                                        <span>
-                                            <i class="fa fa-angle-down">
-                                            </i>
-                                        </span>
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li>
-                                            <a href="#">
-                                                Awesome Features
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                Clean Interface
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                Available Possibilities
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                Responsive Design
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                Pixel Perfect Graphics
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
+                               
                             </ul>
                         </div>
                         <!-- .navbar-collapse -->
@@ -137,12 +96,12 @@
         					<div class="col-md-12">
             					<div class="featured-content-wrapper">
             						<div class="featured-img">
-                						<img class="img-responsive" src="<?php echo base_url() ?>asset/img/img-featured-1.png" alt="">
+                						<img class="img-responsive" src="<?php echo base_url() ?>asset/img/kabah.jpg" style="height: 250px; padding-top: 20px; padding-bottom: 20px">
             						</div>
             						<div class="featured-content">
-                						<h1>We Improve Your Online Performance</h1>
+                						<h1>Paket ter favorit bulan ini </h1>
                 						<p>
-                							Dynamically enhance accurate methods of empowerment without interdependent applications. Appropriately e-enable synergistic platforms for visionary manufactured products. Dramatically develop state of the art relationships without enterprise-wide methodologies.
+                							Beribaah kerumah sang pencipta itu hal yang sangat berkesan dalam diri kita sendiri apalagi menjalankannya dengan liburan ke negara tetangganya yaitu turkey.
                 						</p>
                 						<a href="" class="btn btn-default btn-lg">Learn More About Us</a>
             						</div>
@@ -156,8 +115,8 @@
                 <section class="case-studies">
     				<div class="container">
         				<div class="section-title">
-            				<h1>Our case Studies</h1>
-            				<p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy<br>with my whole heart. I am alone, and feel the charm of existence in this spot.</p>
+            				<h1>Layanan Kami</h1>
+            				<p>Dapatkan perjalanan sesuai dengan kebutuhan anda.</p>
         				</div>
         				<div class="row text-center">
             				<div class="col-md-4">
@@ -166,7 +125,7 @@
                         				<img src="https://jannahtravel.co.id/assets/front/images/umrah.png" style="width: 100px;height: 100px">
                     				</div>
                     				<div class="content">
-                    					<h2>SEO Experts</h2>
+                    					<h2>Layanan Haji</h2>
                     				</div>
                 				</div>
             				</div>
@@ -176,7 +135,7 @@
                 						<img src="https://jannahtravel.co.id/assets/front/images/umrah.png" style="width: 100px;height: 100px">
                 					</div>
                 					<div class="content">
-                    					<h2>Great Rankings</h2>
+                    					<h2>Layanan Umrah</h2>
                 					</div>
                 				</div>
             				</div>
@@ -186,7 +145,7 @@
                 						<img src="https://jannahtravel.co.id/assets/front/images/umrah.png" style="width: 100px;height: 100px">
                 					</div>
                 					<div class="content">
-                     					<h2>Brand Visibility</h2>
+                     					<h2>Layanan Tour</h2>
                 					</div>
                 				</div>
             				</div>
@@ -197,6 +156,7 @@
 
             </div>
         </div>
+       
         <!-- Script -->
         <script src="<?php echo base_url() ?>asset/js/jquery-2.1.4.min.js">
         </script>
