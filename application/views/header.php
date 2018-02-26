@@ -49,17 +49,17 @@
 					<div class="collapse navbar-collapse" id="#navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-right main-nav">
 							<li class="active">
-								<a href="<?php echo base_url()?>home_view.php">
+								<a href="<?php echo base_url()?>c_home">
 									Home
 								</a>
 							</li>
 							<li>
-								<a href="<?php echo base_url()?>index.php/paket">
+								<a href="<?php echo base_url()?>c_paket">
 									Paket
 								</a>
 							</li>
 							<li>
-								<a href="services.html">
+								<a href="#">
 									Mengapa MJM
 								</a>
 							</li>
