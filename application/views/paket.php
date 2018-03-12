@@ -42,79 +42,21 @@
 	</div>
 
 	<div class="row">
-		<div class="col-md-4 ">
-	  		<div class="card h-100">
-	    		<a href="#"><img class="card-img-top" style="width: 350px" src="http://placehold.it/700x400" alt=""></a>
-	    		<div class="card-body">
-	      		<h4 class="card-title">
-	        		<a href="#">Project One</a>
-	      		</h4>
-	      		<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
-	    		</div>
-	  		</div>
-		</div>
 
-		<div class="col-md-4 ">
-	  		<div class="card h-100">
-	    		<a href="#"><img class="card-img-top" style="width: 350px" src="http://placehold.it/700x400" alt=""></a>
-	    		<div class="card-body">
-	      		<h4 class="card-title">
-	        		<a href="#">Project One</a>
-	      		</h4>
-	      		<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
-	    		</div>
-	  		</div>
-		</div>
-
-		<div class="col-md-4 ">
-	  		<div class="card h-100">
-	    		<a href="#"><img class="card-img-top" style="width: 350px" src="http://placehold.it/700x400" alt=""></a>
-	    		<div class="card-body">
-	      		<h4 class="card-title">
-	        		<a href="#">Project One</a>
-	      		</h4>
-	      		<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
-	    		</div>
-	  		</div>
-		</div>
-
-		<div class="col-md-4 ">
-	  		<div class="card h-100">
-	    		<a href="#"><img class="card-img-top" style="width: 350px" src="http://placehold.it/700x400" alt=""></a>
-	    		<div class="card-body">
-	      		<h4 class="card-title">
-	        		<a href="#">Project One</a>
-	      		</h4>
-	      		<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
-	    		</div>
-	  		</div>
-		</div>
-
-		<div class="col-md-4 ">
-	  		<div class="card h-100">
-	    		<a href="#"><img class="card-img-top" style="width: 350px" src="http://placehold.it/700x400" alt=""></a>
-	    		<div class="card-body">
-	      		<h4 class="card-title">
-	        		<a href="#">Project One</a>
-	      		</h4>
-	      		<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
-	    		</div>
-	  		</div>
-		</div>
-
-		<div class="col-md-4 ">
-	  		<div class="card h-100">
-	    		<a href="#"><img class="card-img-top" style="width: 350px" src="http://placehold.it/700x400" alt=""></a>
-	    		<div class="card-body">
-	      		<h4 class="card-title">
-	        		<a href="#">Project One</a>
-	      		</h4>
-	      		<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
-	    		</div>
-	  		</div>
-		</div>
-
-
+		<?php foreach ($row->result() as $key) {?>
+			<div class="col-md-4 ">
+				<a href="<?php echo base_url('c_paket/detail/'.$key->url_title)?>">
+					<div class="card h-100">
+						<img class="card-img-top" style="width: 350px" src="http://placehold.it/700x400" alt="">
+						<div class="card-body">
+							<h4 class="card-title"><?php echo $key->title?></h4>
+							<span class="label label-primary"><?php echo $key->tgl_berangkat?></span>
+							<p class="card-text" style="color: black;">Mulai dari USD<?php echo $key->harga?>/orang</p>
+						</div>
+					</div>
+				</a>
+			</div>
+		<?php } ?>
 
 	</div>
 </div>
