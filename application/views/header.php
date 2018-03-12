@@ -42,24 +42,23 @@
 						<button class="navbar-toggle collapsed" data-target="#navbar-collapse-1" data-toggle="collapse" type="button">
 
 						</button>
-						<a class="navbar-brand" href="index.html">
-							MJM TRAVEL
+						<img class="img-responsive"   src="<?php echo base_url()?>asset/img/google-map-marker.png" style="width: 40px">
 					</div>
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="#navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-right main-nav">
 							<li class="active">
-								<a href="<?php echo base_url()?>home_view.php">
+								<a href="<?php echo base_url()?>c_home" >
 									Home
 								</a>
 							</li>
 							<li>
-								<a href="<?php echo base_url()?>index.php/paket">
+								<a href="<?php echo base_url()?>c_paket">
 									Paket
 								</a>
 							</li>
 							<li>
-								<a href="services.html">
+								<a href="#">
 									Mengapa MJM
 								</a>
 							</li>
