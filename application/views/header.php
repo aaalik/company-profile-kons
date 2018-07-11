@@ -39,27 +39,24 @@
 			<nav class="navbar m-menu navbar-default">
 				<div class="container">
 					<div class="navbar-header">
-						<button class="navbar-toggle collapsed" data-target="#navbar-collapse-1" data-toggle="collapse" type="button">
-
-						</button>
-						<img class="img-responsive"   src="<?php echo base_url()?>asset/img/google-map-marker.png" style="width: 40px">
+						<img class="img-responsive"   src="<?php echo base_url()?>asset/img/logomjm.jpg" style="width: 100px">
 					</div>
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="#navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-right main-nav">
-							<li class="active">
+							<li class="active" style="background-color: #FFD700; color: #080808">
 								<a href="<?php echo base_url()?>c_home" >
-									Home
+									<b>Home</b>
 								</a>
 							</li>
-							<li>
+							<li style="background-color: #FFD700; color: #080808">
 								<a href="<?php echo base_url()?>c_paket">
-									Paket
+									<b>Paket</b>
 								</a>
 							</li>
-							<li>
+							<li style="background-color: #FFD700; color: #080808">
 								<a href="#">
-									Mengapa MJM
+									<b>Mengapa MJM</b>
 								</a>
 							</li>
 

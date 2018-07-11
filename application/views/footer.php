@@ -27,7 +27,7 @@
 										<li class="address">
 											<address>
 												<i class="fa fa-map-pin" aria-hidden="true"></i>
-												437 S Olive St, Los Angeles
+												Bekasi, Jawa Barat
 											</address>
 										</li>
 									</ul>
@@ -43,8 +43,8 @@
 				<div class="copyright-section">
 					<div class="container clearfix">
 						<span class="copytext">Copyright &copy; 2016 |
-							<a href="https://uicookies.com/downloads/marketer-bootstrap-html5-advertising-agency-website-template/">Marketer</a> Designed And Developed By:
-							<strong style="color:#4d6de3">uiCookies.com</strong>
+							<a href="https://uicookies.com/downloads/marketer-bootstrap-html5-advertising-agency-website-template/">MJM TOUR AND TRAVEL
+							
 						</span>
 
 					
